@@ -1,7 +1,13 @@
 import "./App.css";
+import { Header } from "./statics";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    //BEM
+    <div className="app">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
